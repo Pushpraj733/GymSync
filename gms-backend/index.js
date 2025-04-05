@@ -7,7 +7,7 @@ require('dotenv').config()
 const PORT=process.env.PORT;
 const _dirname=path.resolve();
 app.use(cors({
-    origin:'http://localhost:4000', //your react app url
+    origin:'https://gymsync-herc.onrender.com', //your react app url
     credentials: true
 }))
 
